@@ -1,11 +1,14 @@
 === Plugin Name ===
 Contributors: marcus.kober
+Donate link: http://www.amazon.de/registry/wishlist/16KTW9ZG027C8
 Tags: image, featured image, thumbnails, media
 Requires at least: 2.9.2
 Tested up to: 3.3.2
 Stable tag: 0.2 
 
-Adds multiple featured images to a post or page. If you are in need of more than one featured image per post or page, then get this plugin!
+Enables multiple featured images for posts and pages.
+
+If you are in need of more than one featured image per post or page, then get this plugin!
 
 == Description ==
 
@@ -14,8 +17,8 @@ Adds multiple featured images to a post or page. If you are in need of more than
 == Installation ==
 
 1. Unzip and upload the `multiple-featured-images` directory to the plugin directory (`/wp-content/plugins/`)
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Registration of a new featured image:
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Registration of a new featured image:
 
         if( class_exists( 'kdMultipleFeaturedImages' ) ) {
 
@@ -32,7 +35,7 @@ Adds multiple featured images to a post or page. If you are in need of more than
 
                 new kdMultipleFeaturedImages( $args );
         }
-4. Display the featured image in your theme:
+1. Display the featured image in your theme:
 
         if( class_exists( 'kdMultipleFeaturedImages' ) ) {
             kd_mfi_the_featured_image( 'featured-image-2', 'page' );
@@ -105,3 +108,13 @@ With this function call you can get the URL:
 
 = 0.1 =
 * Initial release.
+
+== Upgrade Notice ==
+
+= 0.2 = 
+Code completely rewritten. Plugin is faster now.
+
+= 0.1 =
+Initial release
+
+

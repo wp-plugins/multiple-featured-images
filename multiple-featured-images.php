@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Multiple Featured Images
-Description: Enables multiple featured images for posts and pages. <a href="http://www.amazon.de/registry/wishlist/16KTW9ZG027C8" title="Amazon Wishlist" target="_blank">Amazon Wishlist</a>
+Description: Enables multiple featured images for posts and pages. If you like my plugin, feel free to give me reward ;) <a href="http://www.amazon.de/registry/wishlist/16KTW9ZG027C8" title="Amazon Wishlist" target="_blank">Amazon Wishlist</a>
 Version: 0.2
 Author: Marcus Kober
 Author URI: http://www.koeln-dialog.de/
