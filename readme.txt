@@ -13,7 +13,7 @@ Adds multiple featured images to a post or page. If you are in need of more than
 
 == Installation ==
 
-1. Unzip and upload the `kd-multiple-featured-images` directory to the plugin directory (`/wp-content/plugins/`)
+1. Unzip and upload the `multiple-featured-images` directory to the plugin directory (`/wp-content/plugins/`)
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Registration of a new featured image:
 
