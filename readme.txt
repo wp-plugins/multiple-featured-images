@@ -8,11 +8,27 @@ Stable tag: 0.2
 
 Enables multiple featured images for posts and pages.
 
-If you are in need of more than one featured image per post or page, then get this plugin!
-
 == Description ==
 
-**Multiple featured images** per post or page.
+= Multiple featured images =
+
+This plugin allows you to add additional featured images to a post or page. 
+
+= Features =
+
+1. Add as many featured images as you need
+1. Fully customizable output - so it's multilingual
+
+= History =
+
+For one of my customers I had to assign two featured images to pages. One featured image was used as the
+header image and the other as a small button for the submenu. The images had to be different too (so I couldn't 
+simply use different images sizes) and so I wrote this little plugin.
+
+= You = 
+
+Feel free to ask if you have problems with this plugin. Feature requests are welcome too! And please correct my 
+bad english if it bugs you. ;)
 
 == Installation ==
 
