@@ -121,6 +121,9 @@ With this function call you can get the URL:
 
 == Changelog ==
 
+= 0.3 =
+* Bug fix: no output of url when a size is given
+
 = 0.2 =
 * Code completely rewritten
 
