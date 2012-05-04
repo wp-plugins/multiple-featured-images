@@ -4,7 +4,7 @@ Donate link: http://www.amazon.de/registry/wishlist/16KTW9ZG027C8
 Tags: image, featured image, thumbnails, media
 Requires at least: 2.9.2
 Tested up to: 3.3.2
-Stable tag: 0.2 
+Stable tag: 0.3 
 
 Enables multiple featured images for posts and pages.
 
@@ -103,7 +103,9 @@ You can choose every size that WordPress knows.
 
 With this function call you can get the ID:
 
-        kd_mfi_get_featured_image_id( 'featured-image-2', 'page', 'full' );
+        kd_mfi_get_featured_image_id( 'featured-image-2', 'page' );
+        
+*Note:* Since a featured image has only one individual id, there is no option 'size' in this function call.
 
 = How can I get the URL of the featured image? =
 
