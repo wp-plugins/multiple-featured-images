@@ -358,15 +358,15 @@ function kd_mfi_get_featured_image_id( $image_id, $post_type, $post_id = NULL ) 
     return kdMultipleFeaturedImages::get_featured_image_id( $image_id, $post_type, $post_id );
 }
 
-function kd_mfi_get_featured_image_url( $image_id, $post_type, $size, $post_id = NULL ) {
+function kd_mfi_get_featured_image_url( $image_id, $post_type, $size = 'full', $post_id = NULL ) {
     return kdMultipleFeaturedImages::get_featured_image_url( $image_id, $post_type, $size, $post_id );
 }
 
-function kd_mfi_get_the_featured_image( $image_id, $post_type, $size, $post_id = NULL ) {
+function kd_mfi_get_the_featured_image( $image_id, $post_type, $size = 'full', $post_id = NULL ) {
     return kdMultipleFeaturedImages::get_the_featured_image( $image_id, $post_type, $size, $post_id );
 }
 
-function kd_mfi_the_featured_image( $image_id, $post_type, $size, $post_id = NULL ) {
+function kd_mfi_the_featured_image( $image_id, $post_type, $size = 'full', $post_id = NULL ) {
     return kdMultipleFeaturedImages::the_featured_image( $image_id, $post_type, $size, $post_id );
 }
 
